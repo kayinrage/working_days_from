@@ -9,10 +9,13 @@ Installation:
 =============
 ruby script/plugin install git@github.com/kayinrage/working_days_from.git
 
-
 Examples:
 =========
 # Date.today => Wed, 19 May 2010 
 1.working_day_from_now # => Thu, 20 May 2010
 4.working_days_from_now # => Tue, 25 May 2010
 13.working_days_from_date(Date.parse('06-06-2010')) # => Wed, 23 Jun 2010
+
+
+
+Copyright (c) 2010 Irenuesz Skrobis, released under the MIT license
